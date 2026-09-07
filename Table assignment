@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table,
-        tr,
-        td,
-        th {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
+    <title>Practical Exam: Student Timetable</title>
 </head>
 <body>
-    <table>
+    <h1>HTML Semester 1 Evaluations</h1>
+    <p>THIS PAGE EXPLAINS ABOUT THE STUDENT CLASS TIMETABLE</p>
+    <p><strong><i>Rishab Kumar Jha</i></strong></p>
+    <p><strong><i>Roll Number : 42359</i></strong></p>
+    <hr>
+    <table border="1" cellpadding="8" cellspacing="0" bgcolor="lightgrey" >
         <tr>
-            <th colspan="5"> SEMESTER 1: CLASS TIMETABLE</th>
+            <th colspan="5" bgcolor="navy" > <font color="white">SEMESTER 1: CLASS TIMETABLE </font></th>
         </tr>
         <tr>
             <td>Time Slot</td>
@@ -35,9 +31,9 @@
         </tr>
         <tr>
             <td>10:00 - 12:00</td>
-            <td rowspan="2" colspan="2">Web Programming Lab</td>
+            <td rowspan="2" colspan="2" bgcolor="lightgreen">Web Programming Lab</td>
             <td>Network Security</td>
-            <td rowspan="3">office hours</td>
+            <td rowspan="3" bgcolor="gold">Office hours</td>
         </tr>
         <tr>
             <td>11:00 - 12:00</td>
@@ -45,8 +41,9 @@
         </tr>
         <tr>
             <td>12:00 - 01:00</td>
-            <td colspan="3"> LUNCH BREAK</td>
+            <td colspan="3" bgcolor="cyan"> <MARk>LUNCH BREAK</MARk></td>
         </tr>
-    </table>
+    </table><hr>
+    <a href="timetable.html">https://www.w3schools.com</a>
 </body>
 </html>

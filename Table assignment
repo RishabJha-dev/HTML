@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="5"> SEMESTER 1: CLASS TIMETABLE</th>
+        </tr>
+        <tr>
+            <td>Time Slot</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+        </tr>
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td>Web Design Theory</td>
+            <td>Database Systems</td>
+            <td>System Analysis</td>
+            <td>Math 101</td>
+        </tr>
+        <tr>
+            <td>10:00 - 12:00</td>
+            <td rowspan="2" colspan="2">Web Programming Lab</td>
+            <td>Network Security</td>
+            <td rowspan="3">office hours</td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td>Operating Systems</td>
+        </tr>
+        <tr>
+            <td>12:00 - 01:00</td>
+            <td colspan="3"> LUNCH BREAK</td>
+        </tr>
+    </table>
+</body>
+</html>
